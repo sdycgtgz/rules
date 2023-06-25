@@ -2,11 +2,11 @@
 
 使用[subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)生成，请参考官方文档，订阅地址如下
 
-```
-http://127.0.0.1:25500/sub?target=clash%&url=%URL%&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsdycgtgz%2Frules%2Fmain%2Fclash%2FFull.ini
-```
+更新时必须能够科学上网，要不规则下载不下来
 
-
+```
+http://127.0.0.1:25500/sub?target=clash&url=%URL%&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsdycgtgz%2Frules%2Fmain%2Fclash%2FFull.ini
+```
 
 # Chaptgpt分流规则
 
