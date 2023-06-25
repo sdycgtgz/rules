@@ -1,3 +1,13 @@
+# 订阅链接
+
+使用[subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)生成，请参考官方文档，订阅地址如下
+
+```
+http://127.0.0.1:25500/sub?target=clash%&url=%URL%&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsdycgtgz%2Frules%2Fmain%2Fclash%2FFull.ini
+```
+
+
+
 # Chaptgpt分流规则
 
 因Chatgpt香港节点不支持，所以独立创建了一份openclash分流规则
@@ -7,7 +17,7 @@
 使用方法(到openclash配置文件处更新订阅链接)
 
     https://api.dler.io/sub?target=clash&new_name=true&url=你的订阅链接(需要使用URL编码，)&config=https%3A%2F%2Fraw.githubusercontent.com%2Fwgetnz%2Fchatgpt%2Fmain%2FFull.ini
-    
+
 控制面板中，Chatgpt选择节点选择，节点选择选择除中国地区（包含香港）的其他节点即可
 
 如果更新规则后，仍提示地区不可用，请清除浏览器数据
@@ -25,7 +35,7 @@
     chrome://flags/#enable-quic
     edge://flags/#enable-quic
 ```
-    
+
 降级成 http1/2 就能让域名路由规则生效了。
 
 订阅连接为 https://acl4ssr-sub.github.io/  接口,若担心安全问题，建议开启本地订阅，修改参数为 config=https%3A%2F%2Fraw.githubusercontent.com%2Fwgetnz%2Fchatgpt%2Fmain%2FFull.ini 即可，也可fork本项目，自行修改
